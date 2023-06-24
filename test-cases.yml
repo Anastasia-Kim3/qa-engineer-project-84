@@ -50,7 +50,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    Открыта главная страница магазина
+    Открыта главная страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Бренд: Apple
     Цена: до 1000
@@ -65,7 +65,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница магазина
+    Открыта главная страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     товар Huawei P30
   steps:
@@ -80,7 +80,7 @@
   requirement: |
     Пользователь должен иметь возможность добавить товар в корзину
   prerequisites: |
-    Открыта главная страница магазина
+    Открыта главная страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     нет
   steps:
@@ -93,8 +93,8 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары в корзине
   prerequisites: |
-    Открыта главная страница магазина
-  test-data: |
+    Открыта главная страница магазина https://hexlet-products-store.vercel.app/
+  test-data: | 
     нет
   steps:
     - выбираем любой товар и добавляем его в корзину
@@ -121,7 +121,7 @@
   requirement: |
     Интернет-магазин доступен к просмотру на русском языке
   prerequisites: |
-    Открыта главная страница магазина
+    Открыта главная страница магазина https://hexlet-products-store.vercel.app/
     кнопка смены языка активна
   test-data: |
     Russian
