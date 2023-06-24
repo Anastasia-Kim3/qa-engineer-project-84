@@ -4,6 +4,10 @@
   status: pass
 
 - summary: |
+    Проверка работы поиска товара по пустой категории
+  status: fail
+    
+- summary: |
     Проверка работы сайта на мобильных телефонах iOs Safari версия 16.5.1
   status: pass
 
