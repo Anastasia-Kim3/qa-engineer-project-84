@@ -1,40 +1,40 @@
 ---
 - summary: |
     Проверка работы поиска товара по категории
-status: pass
+  status: pass
 
 - summary: |
     Проверка работы сайта на мобильных телефонах iOs Safari версия 16.5.1
-status: pass
+  status: pass
 
 - summary: |
     Проверка работы функции заказа товара на мобильной версии сайта Google Chrome версия 114.0.5735.124
-status: pass
+  status: pass
 
 - summary: |
     Проверка работы фильтров товаров Apple до 1000
-status: pass
+  status: pass
 
 - summary: |
     Проверка отображения подробной информации о товаре Huawei P30
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности добавления товара в корзину
-status: pass
+  status: pass
 
 - summary: |
     Проверка отображения товаров в корзине
-status: pass
+  status: pass
 
 - summary: |
     Проверка доступности сайта в браузере Google Chrome Версия 114.0.5735.134
-status: pass
+  status: pass
 
 - summary: |
     Проверка локализации системы при смене языка (описание товаров)
-status: fail
+  status: fail
 
 - summary: |
     Проверка отображения кнопки локализации системы при смене языка, English
-status: fail
+  status: fail
