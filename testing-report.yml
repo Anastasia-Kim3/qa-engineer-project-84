@@ -18,7 +18,7 @@ status: pass
 - summary: |
     Проверка отображения подробной информации о товаре Huawei P30
 status: pass
-    
+
 - summary: |
     Проверка возможности добавления товара в корзину
 status: pass
