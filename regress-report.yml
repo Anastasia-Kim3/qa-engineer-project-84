@@ -1,3 +1,10 @@
+test-cases:
+- summary: |
+    Проверка локализации системы при смене языка
+    status: fail
+- summary: |
+    Проверка локализации системы при смене языка
+    status: fail
 
 bugreports:
 - summary: |
