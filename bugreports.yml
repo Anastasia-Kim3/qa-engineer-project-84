@@ -42,3 +42,17 @@
     HTTP Status: 200 OK   
   actual-result: |
     HTTP Status: 500 {"status":"500","title":"failed","type":"about:blank","detail":"failed"}
+
+- summary: |
+    Не работает поиск товаров по ключевому слову
+  environment: |
+    Google Chrome   114.0.5735.134 (Официальная сборка) (64 бит)
+    ОС Windows 10 Home версия сборки 19045.3086
+  steps-to-reproduce: |
+    1. Открыть главную страницу магазина https://hexlet-products-store.vercel.app/
+    2. В строке поиска указываем слово "phone"
+  expected-result: |
+    Отображаются все товары содержащие в описании, наименовании или тегах слово "phone"
+  actual-result: |
+    Отображаются только товары в наименовании которых есть слово "phone", но оставшиеся товары с тегом "smartphone" не показываются.
+ 
