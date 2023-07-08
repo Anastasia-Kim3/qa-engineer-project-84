@@ -12,6 +12,12 @@ test-cases:
   - summary: |
       Проверка передачи данных о заказе на сервер
     status: fail
+  - summary: |
+      Проверка работы фильтрации товаров по цене
+    status: pass
+  - summary: |
+      Проверка работы фильтрации товаров по цене
+    status: fail
 
 bugreports:
 - summary:
@@ -42,3 +48,14 @@ bugreports:
     HTTP Status: 200 OK   
   actual-result: |
     HTTP Status: 500 {"status":"500","title":"failed","type":"about:blank","detail":"failed"}
+- summary:
+    Не работает фильтрация товаров по цене
+  environment: |
+    Google Chrome   114.0.5735.134 (Официальная сборка) (64 бит)
+    ОС Windows 10 Home версия сборки 19045.3086
+  steps-to-reproduce: |
+    1. В фильтре товаров по цене указываем значение от 10000
+  expected-result: |
+    Пользователь видит все товары со значением цены выше 10000
+  actual-result: |
+    Пользователь видит товары со значением цены меньше 10000
